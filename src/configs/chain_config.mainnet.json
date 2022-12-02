@@ -1,0 +1,32 @@
+{
+  "title": "Spike Block Explorer",
+  "network": "spikedtest_9000-1",
+  "icon": "/images/icon.svg",
+  "logo": {
+    "default": "/images/logo.svg"
+  },
+  "prefix": {
+    "consensus": "spikevalcons",
+    "validator": "spikevaloper",
+    "account": "spike"
+  },
+  "genesis": {
+    "time": "2021-07-13T08:00:00",
+    "height": 1
+  },
+  "primaryTokenUnit": "uspike",
+  "votingPowerTokenUnit": "uspike",
+  "tokenUnits": {
+    "uspike": {
+      "display": "spike",
+      "exponent": 18
+    },
+    "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518": {
+      "display": "osmo",
+      "exponent": 6
+    }
+  },
+  "extra": {
+    "profile": false
+  }
+}

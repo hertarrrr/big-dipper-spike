@@ -1,0 +1,11 @@
+{
+  "maintainer": {
+    "name": "Spike-Engine",
+    "url": "https://www.baidu.com"
+  },
+  "github": {
+    "reportIssue": "https://github.com/spike-engine"
+  },
+  "previewImage": "https://s3.bigdipper.live/evmos.png",
+  "version": "base-v2.1.0"
+}

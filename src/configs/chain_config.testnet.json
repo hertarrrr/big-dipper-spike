@@ -1,0 +1,28 @@
+{
+  "title": "Spike Block Explorer",
+  "network": "spikedtest_9000-1",
+  "icon": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/icon.svg?sanitize=true",
+  "logo": {
+    "default": "https://raw.githubusercontent.com/forbole/big-dipper-assets/master/desmos/logo.svg?sanitize=true"
+  },
+  "prefix": {
+    "consensus": "spikevalcons",
+    "validator": "spikevaloper",
+    "account": "spike"
+  },
+  "genesis": {
+    "time": "2021-07-13T08:00:00",
+    "height": 1
+  },
+  "primaryTokenUnit": "uspike",
+  "votingPowerTokenUnit": "uspike",
+  "tokenUnits": {
+    "uspike": {
+      "display": "spike",
+      "exponent": 18
+    }
+  },
+  "extra": {
+    "profile": true
+  }
+}
